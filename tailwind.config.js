@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        zentry: ['zentury', 'sans-serif'],
+        zentry: ['Zentry', 'sans-serif'],
         general: ['general', 'sans-serif'],
         'circular-web': ['circular-web', 'sans-serif'],
         'robert-medium': ['robert-medium', 'sans-serif'],
