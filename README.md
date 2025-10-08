@@ -1,16 +1,78 @@
-# React + Vite
+# 🎮 Redefine Gaming – React + Vite + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a minimal React + Vite + TypeScript setup, featuring HMR (Hot Module Replacement), ESLint, and a streamlined development experience. The project is deployed via GitHub Pages.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [Redefine Gaming](https://linvulpes.github.io/Redefine-Gaming/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **Vite**
+- **TypeScript**
+- **ESLint**
+- **GitHub Pages** (deployment)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Plugins Used
+
+Vite supports two official plugins for React:
+
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) – uses [Babel](https://babeljs.io/) for Fast Refresh
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) – uses [SWC](https://swc.rs/) for Fast Refresh
+
+---
+
+## ⚛️ React Compiler
+
+> The React Compiler is **not enabled** in this template.
+
+If you'd like to enable it, follow the official guide:  
+📘 [React Compiler Installation](https://react.dev/learn/react-compiler/installation)
+
+---
+
+## 📏 ESLint Configuration
+
+This template comes with basic ESLint rules for code quality.
+
+For production apps, consider enabling **type-aware linting** with [`typescript-eslint`](https://typescript-eslint.io).
+
+More info:  
+- [Vite React TS Template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
+
+---
+
+## 📂 Project Structure
+
+```bash
+my-project/
+├─ public/
+├─ src/
+│  ├─ components/
+│  ├─ App.tsx
+│  ├─ main.tsx
+├─ index.html
+├─ tsconfig.json
+├─ vite.config.ts
+└─ ...
+
+## 📦 Getting Started
+
+### Install dependencies
+```bash
+npm install
+
+### Start development server
+```bash
+npm run dev
+
+### Build for production
+```bash
+npm run build
+
+### Preview production build
+```bash
+npm run preview
